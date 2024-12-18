@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CRICblog</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/codebase/dhtmlxcalendar.css"/>
+	<script src="js/codebase/dhtmlxcalendar.js"></script>
+	<style>
+		#calendar,
+		#calendar2,
+		#calendar3 {
+			border: 1px solid #dfdfdf;
+			font-family: Roboto, Arial, Helvetica;
+			font-size: 14px;
+			color: #404040;
+		}
+	</style>
+	<script>
+		var myCalendar;
+		function doOnLoad() {
+			myCalendar = new dhtmlXCalendarObject(["cal_1","cal_2", "cal_3"]);
+		}
+	</script>
+
+  </head>
+<body  onload="doOnLoad();">
+
+	
+<section id="header">
+	    <div class="container-fluid">
+		 <div class="row">
+		   <div class="col-sm-12">
+		     <nav class="navbar navbar-default" role="navigation">
+   
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="index.html">CRICblog</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="navbar-brand-centered">
+		      <ul class="nav navbar-nav">
+			     <li class="border_hover_1"><a class="" href="index.html">HOME</a></li>
+
+				 <li class="border_hover_1"><a class="active_1" href="features.html">BLOG</a></li>
+				 
+				 <li class="border_hover_1"><a href="blog.html">DETAIL</a></li>
+		
+				 <li class="border_hover_1"><a href="contact.html">CONTACT</a></li>
+				 
+			     
+				
+				 <li class="dropdown dropdown-large border_hover_1">
+		
+				
+				
+				
+		      
+		    </div><!-- /.navbar-collapse -->
+
+		</nav>
+		   </div>
+		 </div>
+		</div>
+	  </section>
+
+
+<section id="center_feature">
+ <div class="container-fluid">
+   <div class="row">
+    <div class="col-sm-9">
+	  <div class="center_feature_1">
+	    <div id="custom-search-input">
+                            <div class="input-group col-md-12">
+                                <input type="text" class="  search-query form-control" placeholder="Search">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-danger" type="button">
+                                        <span class=" glyphicon glyphicon-search"></span>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+	  </div>
+	  <div class="center_feature_2 clearfix border_bottom_1">
+	    <div class="col-sm-6">
+		
+		</div>
+		<div class="col-sm-6">
+		<div class="col-sm-4 center_feature_2_inner">
+		<input type="text" class="form-control"  id="cal_1" placeholder="From" required="">
+		 <i id="cal_2" class="fa fa-calendar"></i>
+		</div>
+		<div class="col-sm-4 center_feature_2_inner">
+		<input type="text" class="form-control"  id="cal_3" placeholder="To" required="">
+		 <i id="cal_2" class="fa fa-calendar"></i>
+		</div>
+		<div class="col-sm-4 center_feature_2_inner">
+		<p><a href="blog.html">FIND RESULTS</a></p>
+		</div>
+		</div>
+	  </div>
+	  <div class="blog_main border_bottom_1">
+	    <div class="blog">
+		 <h6><a href="#">MS Dhoni</a></h6>
+		 <h5>CSK, IPL 2024, CHENNAI</h5>
+		 <h2><a href="#">IPL 2024: 'World's best finisher' Dhoni does it again!</a></h2>
+		 <p><span>April 22, 2024</span></p>
+		 <a href="#"><img src="img\MSD2.jpg" width="100%"></a>
+		</div>
+	  </div>
+	  <div class="blog_main border_bottom_1">
+	    <div class="blog">
+
+		 <h5>OTHER STAFF</h5>
+		 <h2><a href="#">Yuzvendra Chahal</a></h2>
+		 <p><span>April 23, 2024</span> Yuzvendra Chahal’s mindset has made him a world-class bowler: Lalchand Rajput</p>
+		 <a href="#"><img src="img\Yuzvendra-Chahal1.webp" width="100%"></a>
+		</div>
+	  </div>
+	  <div class="blog_main border_bottom_1">
+	    <div class="blog">
+		 
+		 <h5>RELATED SHOTS</h5>
+		 <h2><a href="#"> Hardik Pandya</a></h2>
+		 <p><span>April 23, 2024</span> "My Focus Is On IPL": Hardik Pandya Not Thinking About India Comeback</p>
+		 <a href="#"><img src="img\hardik1.webp" width="100%"></a>
+		</div>
+	  </div>
+	  <div class="blog_main border_bottom_1">
+	    <div class="blog">
+		 
+		 <h5>FINAL CUTS</h5>
+		 <h2><a href="#">IPL 2024: Ravindra Jadeja </a></h2>
+		 <p><span>April 24, 2024</span> IPL 2024: Ravindra Jadeja Admits CSK Failed To "Execute Plans" In Last Overs Against Gujarat Titans</p>
+		 <a href="#"><img src="img\CSk1.webp" width="100%"></a>
+		</div>
+	  </div>
+	  <div class="blog_main border_bottom_1">
+	    <div class="blog">
+		 <h5>FULL SWING</h5>
+		 <h2><a href="#">MI IPL,2024 Ishan Kishan</a></h2>
+		 <p><span>April 17, 2024</span> IPL 2024 [WATCH]: Angry Ishan Kishan hits boundary cushions after getting out against LSG</p>
+		 <a href="#"><img src="img\ishan1.jpg" width="100%"></a>
+		</div>
+	  </div>
+	</div>
+	<div class="col-sm-3">
+	<div class="detail_2">
+	   	   <div class="detsil_2_text clearfix text-center">
+	   <p>Free online account forms in</p>
+	   <h1>06 min  36 sec</h1>
+	   <img src="img\IPL1.png" class="img-circle">
+	   <h3>How to Smoothly</h3>
+	   <h3>Quick a Valuable</h3>
+	   <h3>Shopping Store</h3>
+	   <h5><a href="#">Reserve the post now</a></h5>
+	 </div>
+	      
+	      <div class="detail_2_inner_1">
+	     <h6><i class="fa fa-trademark"></i> TRENDING</h6>
+		 <h5><a href="#"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h5>
+
+		  <h5><a href="#">Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</a></h5>
+
+		 <h5><a href="#">Sed nisi. Nulla quis sem at nibh elementum imperdiet.</a></h5>
+
+
+		  <h5 class="border_none_1"><a href="blog.html">Duis sagittis ipsum. Praesent mauris.</a></h5>
+
+
+	   </div>
+	  </div>
+		  <div class="center_right">
+			
+			   <ul class="nav nav-tabs">
+	  <li class="active"><a data-toggle="tab" href="#home">NEW</a></li>
+	  <li><a data-toggle="tab" href="#menu1">LATEST</a></li>
+	  <li><a data-toggle="tab" href="#menu2">OLD</a></li>
+	</ul>
+	
+	<div class="tab-content clearfix">
+	  <div id="home" class="tab-pane fade in active clearfix">
+		 <div class="click clearfix">
+			 
+			  <div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">INDIAN NEW SERIES</a>
+					</h4>
+				  </div>
+				  <div id="collapse1" class="panel-collapse collapse in">
+					<div class="panel-body"><p><a href="blog.html"><span>Chennai kings v Kolkata </span>(10:00 local | 12:30 GMT)</a></p></div>
+				  </div>
+				</div>
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">ALL WORLD</a>
+					</h4>
+				  </div>
+				  <div id="collapse2" class="panel-collapse collapse">
+					<div class="panel-body"><p><a href="blog.html"><span>Pakistan</span> 212 &amp; 364/9 (104 ov) v <span>India</span> 493</a></p></div>
+				  </div>
+				</div>
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">OTHER'S TRIANGULAR WORLD SERIES (IN AUSTRALIA)</a>
+					</h4>
+				  </div>
+				  <div id="collapse3" class="panel-collapse collapse">
+					<div class="panel-body">
+					<p class="border_bottom_1"><a href="blog.html"><span>Zim </span> 74/6 (25/50 ov) v <span>AUSTRALIA </span></a></p>
+					 <p><a href="blog.html"><span>Ire </span> 65/4 (30.3/50 ov) v <span>AFRICA </span></a></p>
+					</div>
+				  </div>
+				  
+				</div>
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">MORE</a>
+					</h4>
+				  </div>
+				  <div id="collapse4" class="panel-collapse collapse in">
+					<div class="panel-body">
+					<p class="border_bottom_1"><a href="blog.html"><span>AUSTRALIA A</span> 219/3 (30/50 ov) v <span>PAK</span></a></p>
+					<p class="border_bottom_1"><a href="blog.html"><span>Namibia Wome</span> 83/5 v <span>Hong Wmn</span> 94/7 (19/20 ov, target 104) Hong Wmn won by 3 wickets (with 5 balls remaining)</a></p>
+					<p><a href="blog.html"><span>Namibia Wome</span> 83/5 v <span>Hong Wmn</span> 94/7 (19/20 ov, target 104) Hong Wmn won by 3 wickets (with 5 balls remaining)</a></p>
+					</div>
+				  </div>
+				</div>
+			  </div> 
+			  <div class="home_1">
+			   <a class="border_right_1" href="blog.html">Top scores pages</a>
+			   <a href="#">News on Laptop</a>
+			  </div>
+
+	   </div>
+	  </div>
+	  <div id="menu1" class="tab-pane fade clearfix">
+		 <div class="click clearfix">
+			 
+			  <div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">INDIAN NEW SERIES</a>
+					</h4>
+				  </div>
+				  <div id="collapse1" class="panel-collapse collapse in">
+					<div class="panel-body"><p><a href="blog.html"><span>Banglore v Mumbai </span>(10:00 local | 12:30 GMT)</a></p></div>
+				  </div>
+				</div>
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">ALL WORLD</a>
+					</h4>
+				  </div>
+				  <div id="collapse2" class="panel-collapse collapse">
+					<div class="panel-body"><p><a href="blog.html"><span>Pakistan</span> 212 &amp; 364/9 (104 ov) v <span>India</span> 493</a></p></div>
+				  </div>
+				</div>
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">OTHER'S TRIANGULAR WORLD SERIES (IN AUSTRALIA)</a>
+					</h4>
+				  </div>
+				  <div id="collapse3" class="panel-collapse collapse">
+					<div class="panel-body">
+					<p class="border_bottom_1"><a href="blog.html"><span>Zim </span> 74/6 (25/50 ov) v <span>AUSTRALIA </span></a></p>
+					 <p><a href="blog.html"><span>Ire </span> 65/4 (30.3/50 ov) v <span>AFRICA </span></a></p>
+					</div>
+				  </div>
+				  
+				</div>
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">MORE</a>
+					</h4>
+				  </div>
+				  <div id="collapse4" class="panel-collapse collapse in">
+					<div class="panel-body">
+					<p class="border_bottom_1"><a href="blog.html"><span>AUSTRALIA A</span> 219/3 (30/50 ov) v <span>PAK</span></a></p>
+					<p class="border_bottom_1"><a href="blog.html"><span>Namibia Wome</span> 83/5 v <span>Hong Wmn</span> 94/7 (19/20 ov, target 104) Hong Wmn won by 3 wickets (with 5 balls remaining)</a></p>
+					<p><a href="#"><span>Namibia Wome</span> 83/5 v <span>Hong Wmn</span> 94/7 (19/20 ov, target 104) Hong Wmn won by 3 wickets (with 5 balls remaining)</a></p>
+					</div>
+				  </div>
+				</div>
+			  </div> 
+			  <div class="home_1">
+			   <a class="border_right_1" href="#">Top scores pages</a>
+			   <a href="#">News on Laptop</a>
+			  </div>
+
+	   </div>
+	  </div>
+	  <div id="menu2" class="tab-pane fade clearfix">
+		 <div class="click clearfix">
+			 
+			  <div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">INDIAN NEW SERIES</a>
+					</h4>
+				  </div>
+				  <div id="collapse1" class="panel-collapse collapse in">
+					<div class="panel-body"><p><a href="blog.html"><span>Rising pune v Kolkata </span>(10:00 local | 12:30 GMT)</a></p></div>
+				  </div>
+				</div>
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">ALL WORLD</a>
+					</h4>
+				  </div>
+				  <div id="collapse2" class="panel-collapse collapse">
+					<div class="panel-body"><p><a href="blog.html"><span>Pakistan</span> 212 &amp; 364/9 (104 ov) v <span>India</span> 493</a></p></div>
+				  </div>
+				</div>
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">OTHER'S TRIANGULAR WORLD SERIES (IN AUSTRALIA)</a>
+					</h4>
+				  </div>
+				  <div id="collapse3" class="panel-collapse collapse">
+					<div class="panel-body">
+					<p class="border_bottom_1"><a href="blog.html"><span>Zim </span> 74/6 (25/50 ov) v <span>AUSTRALIA </span></a></p>
+					 <p><a href="blog.html"><span>Ire </span> 65/4 (30.3/50 ov) v <span>AFRICA </span></a></p>
+					</div>
+				  </div>
+				  
+				</div>
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">MORE</a>
+					</h4>
+				  </div>
+				  <div id="collapse4" class="panel-collapse collapse in">
+					<div class="panel-body">
+					<p class="border_bottom_1"><a href="blog.html"><span>AUSTRALIA A</span> 219/3 (30/50 ov) v <span>PAK</span></a></p>
+					<p class="border_bottom_1"><a href="blog.html"><span>Namibia Wome</span> 83/5 v <span>Hong Wmn</span> 94/7 (19/20 ov, target 104) Hong Wmn won by 3 wickets (with 5 balls remaining)</a></p>
+					<p><a href="blog.html"><span>Namibia Wome</span> 83/5 v <span>Hong Wmn</span> 94/7 (19/20 ov, target 104) Hong Wmn won by 3 wickets (with 5 balls remaining)</a></p>
+					</div>
+				  </div>
+				</div>
+			  </div> 
+			  <div class="home_1">
+			   <a class="border_right_1" href="blog.html">Top scores pages</a>
+			   <a href="blog.html">News on Laptop</a>
+			  </div>
+
+	   </div>
+	  </div>
+	</div>
+	
+		  </div>
+		  <div class="center_right_middle">
+		    <a href="blog.html"><img src="img\IPL1.png" width="100%"></a>
+			<div class="view">
+		   <h4>MOST POPULAR</h4>
+		    <ul class="nav nav-tabs">
+	  <li class="active"><a data-toggle="tab" href="#home1">NOW</a></li>
+	  <li><a data-toggle="tab" href="#menu3">LAST WEEK</a></li>
+	  <li><a data-toggle="tab" href="#menu4">LAST MONTH</a></li>
+	</ul>
+	
+	<div class="tab-content clearfix">
+	  <div id="home1" class="tab-pane fade in active clearfix">
+		 <div class="click clearfix">
+			<div class="clearfix clear_text border_bottom_1">
+			<div class="col-sm-3">
+			 <div class="tab_1_inner border_right_1">
+			   <p class="text-center">1</p>
+			 </div>
+			</div> 
+            <div class="col-sm-9 tab_1_inner_1_main">
+			  <div class="tab_1_inner_1 ">
+			   <p><a href="blog.html">Torquent Per Conubia Nostra, Per Inceptos </a></p>
+			 </div>
+			</div> 
+			</div>
+			<div class="clearfix clear_text border_bottom_1">
+			<div class="col-sm-3">
+			 <div class="tab_1_inner border_right_1">
+			   <p class="text-center">2</p>
+			 </div>
+			</div> 
+            <div class="col-sm-9 tab_1_inner_1_main">
+			  <div class="tab_1_inner_1 ">
+			   <p><a href="blog.html">Torquent Per Conubia Nostra, Per Inceptos</a></p>
+			 </div>
+			</div> 
+			</div>
+			<div class="clearfix clear_text border_bottom_1">
+			<div class="col-sm-3">
+			 <div class="tab_1_inner border_right_1">
+			   <p class="text-center">3</p>
+			 </div>
+			</div> 
+            <div class="col-sm-9 tab_1_inner_1_main">
+			  <div class="tab_1_inner_1 ">
+			   <p><a href="blog.html">Torquent Per Conubia Nostra, Per Inceptos</a></p>
+			 </div>
+			</div> 
+			</div>
+			<div class="clearfix clear_text border_bottom_1">
+			<div class="col-sm-3">
+			 <div class="tab_1_inner border_right_1">
+			   <p class="text-center">4</p>
+			 </div>
+			</div> 
+            <div class="col-sm-9 tab_1_inner_1_main">
+			  <div class="tab_1_inner_1 ">
+			   <p><a href="blog.html">Torquent Per Conubia Nostra, Per Inceptos</a></p>
+			 </div>
+			</div> 
+			</div>
+			<div class="clearfix clear_text">
+			<div class="col-sm-3">
+			 <div class="tab_1_inner border_right_1">
+			   <p class="text-center">5</p>
+			 </div>
+			</div> 
+            <div class="col-sm-9 tab_1_inner_1_main">
+			  <div class="tab_1_inner_1 ">
+			   <p><a href="blog.html">Torquent Per Conubia Nostra, Per Inceptos</a></p>
+			 </div>
+			</div> 
+			</div>
+	     </div>
+	  </div>
+	  <div id="menu3" class="tab-pane fade clearfix">
+		 <div class="click clearfix">
+			<div class="clearfix clear_text border_bottom_1">
+			<div class="col-sm-3">
+			 <div class="tab_1_inner border_right_1">
+			   <p class="text-center">1</p>
+			 </div>
+			</div> 
+            <div class="col-sm-9 tab_1_inner_1_main">
+			  <div class="tab_1_inner_1 ">
+			   <p><a href="blog.html">Fusce nec tellus sed augue semper porta</a></p>
+			 </div>
+			</div> 
+			</div>
+			<div class="clearfix clear_text border_bottom_1">
+			<div class="col-sm-3">
+			 <div class="tab_1_inner border_right_1">
+			   <p class="text-center">2</p>
+			 </div>
+			</div> 
+            <div class="col-sm-9 tab_1_inner_1_main">
+			  <div class="tab_1_inner_1 ">
+			   <p><a href="blog.html">Fusce nec tellus sed augue semper porta</a></p>
+			 </div>
+			</div> 
+			</div>
+			<div class="clearfix clear_text border_bottom_1">
+			<div class="col-sm-3">
+			 <div class="tab_1_inner border_right_1">
+			   <p class="text-center">3</p>
+			 </div>
+			</div> 
+            <div class="col-sm-9 tab_1_inner_1_main">
+			  <div class="tab_1_inner_1 ">
+			   <p><a href="blog.html">Fusce nec tellus sed augue semper porta</a></p>
+			 </div>
+			</div> 
+			</div>
+			<div class="clearfix clear_text border_bottom_1">
+			<div class="col-sm-3">
+			 <div class="tab_1_inner border_right_1">
+			   <p class="text-center">4</p>
+			 </div>
+			</div> 
+            <div class="col-sm-9 tab_1_inner_1_main">
+			  <div class="tab_1_inner_1 ">
+			   <p><a href="blog.html">Fusce nec tellus sed augue semper porta</a></p>
+			 </div>
+			</div> 
+			</div>
+			<div class="clearfix clear_text">
+			<div class="col-sm-3">
+			 <div class="tab_1_inner border_right_1">
+			   <p class="text-center">5</p>
+			 </div>
+			</div> 
+            <div class="col-sm-9 tab_1_inner_1_main">
+			  <div class="tab_1_inner_1 ">
+			   <p><a href="blog.html">Fusce nec tellus sed augue semper porta</a></p>
+			 </div>
+			</div> 
+			</div>
+	     </div>
+	  </div>
+	  <div id="menu4" class="tab-pane fade clearfix">
+		 <div class="click clearfix">
+			<div class="clearfix clear_text border_bottom_1">
+			<div class="col-sm-3">
+			 <div class="tab_1_inner border_right_1">
+			   <p class="text-center">1</p>
+			 </div>
+			</div> 
+            <div class="col-sm-9 tab_1_inner_1_main">
+			  <div class="tab_1_inner_1 ">
+			   <p><a href="blog.html">Ligula in libero Sed dignissim lacinia nunc.</a></p>
+			 </div>
+			</div> 
+			</div>
+			<div class="clearfix clear_text border_bottom_1">
+			<div class="col-sm-3">
+			 <div class="tab_1_inner border_right_1">
+			   <p class="text-center">2</p>
+			 </div>
+			</div> 
+            <div class="col-sm-9 tab_1_inner_1_main">
+			  <div class="tab_1_inner_1 ">
+			   <p><a href="blog.html">Ligula in libero Sed dignissim lacinia nunc.</a></p>
+			 </div>
+			</div> 
+			</div>
+			<div class="clearfix clear_text border_bottom_1">
+			<div class="col-sm-3">
+			 <div class="tab_1_inner border_right_1">
+			   <p class="text-center">3</p>
+			 </div>
+			</div> 
+            <div class="col-sm-9 tab_1_inner_1_main">
+			  <div class="tab_1_inner_1 ">
+			   <p><a href="blog.html">Ligula in libero Sed dignissim lacinia nunc.</a></p>
+			 </div>
+			</div> 
+			</div>
+			<div class="clearfix clear_text border_bottom_1">
+			<div class="col-sm-3">
+			 <div class="tab_1_inner border_right_1">
+			   <p class="text-center">4</p>
+			 </div>
+			</div> 
+            <div class="col-sm-9 tab_1_inner_1_main">
+			  <div class="tab_1_inner_1 ">
+			   <p><a href="blog.html">Ligula in libero Sed dignissim lacinia nunc.</a></p>
+			 </div>
+			</div> 
+			</div>
+			<div class="clearfix clear_text">
+			<div class="col-sm-3">
+			 <div class="tab_1_inner border_right_1">
+			   <p class="text-center">5</p>
+			 </div>
+			</div> 
+            <div class="col-sm-9 tab_1_inner_1_main">
+			  <div class="tab_1_inner_1 ">
+			   <p><a href="blog.html">Ligula in libero Sed dignissim lacinia nunc.</a></p>
+			 </div>
+			</div> 
+			</div>
+	     </div>
+	  </div>
+	</div>
+		  </div>
+		    <div class="poll">
+			 <h4>VOTE</h4>
+			 <h3>Which team will Win the IPL 2024 Cup ?</h3>
+			 <p><input class="radio_1" type="radio">CSK</p>
+			 <p><input class="radio_1" type="radio">MI</p>
+			 <p><input class="radio_1" type="radio">RCB</p>
+			 <p><input class="radio_1" type="radio">SRH</p>
+			 <p><input class="radio_1" type="radio">RR</p>
+			 <div class="submit">
+			  <a href="blog.html">SUBMIT</a>
+			 </div>
+			</div>
+			<div class="sponsored">
+			  <h4>COPYRIGHT LINKS</h4>
+			  <div class="sponsored_inner border_bottom_1"><p><a href="blog.html">Ociosqu ad litora torquent</a></p>
+			  <h6>Signup &amp; log in</h6></div>
+			  <div class="sponsored_inner border_bottom_1"><p><a href="blog.html">Ociosqu ad litora torquent!</a></p>
+			  <h6>Signup &amp; log in</h6></div>
+			  <div class="sponsored_inner border_bottom_1"><p><a href="blog.html">Ociosqu ad litora torquent</a></p>
+			  <h6>Signup &amp; log in</h6></div>
+			  <div class="sponsored_inner border_bottom_1"><p><a href="blog.html">Ociosqu ad litora torquent</a></p>
+			  <h6>Signup &amp; log in</h6></div>
+			  <div class="sponsored_inner"><p><a href="blog.html">Ociosqu ad litora torquent</a></p>
+			  <h6>Signup &amp; log in</h6></div>
+			</div>
+			<div class="number">
+			  <h4>NUMBER ATTENDING</h4>
+			  <p class="text-center"><a href="blog.html">8</a></p>
+			  <p class="p_3">Curabitursodales ligula in libero sed dignissim lacinia nunc ad litora ?</p>
+			</div>
+			<div class="chart clearfix">
+			  <h4>POINTS TABLE</h4>
+			   <div class="chart_1">
+			    <p>
+				<span>Teams</span>
+				<span>Mat</span>
+				<span>Won</span>
+				<span>Lost</span>
+				<span>Tied</span>
+				<span>N/R</span>
+				<span>Pts</span>
+				</p>
+			   </div>
+			   <div class="chart_2">
+			    <p>
+				<span>PUN</span>
+				<span>10</span>
+				<span>8</span>
+				<span>2</span>
+				<span>0</span>
+				<span>0</span>
+				<span>16</span>
+				</p>
+			   </div>
+			   <div class="chart_2">
+			    <p>
+				<span>HYD</span>
+				<span>10</span>
+				<span>8</span>
+				<span>2</span>
+				<span>0</span>
+				<span>0</span>
+				<span>16</span>
+				</p>
+			   </div>
+			   <div class="chart_2">
+			    <p>
+				<span>MOH</span>
+				<span>10</span>
+				<span>8</span>
+				<span>2</span>
+				<span>0</span>
+				<span>0</span>
+				<span>16</span>
+				</p>
+			   </div>
+			   
+			   
+			   
+			   
+			   <div class="chart_2 border_none_1">
+			    <p>
+				<span>KOL</span>
+				<span>10</span>
+				<span>8</span>
+				<span>2</span>
+				<span>0</span>
+				<span>0</span>
+				<span>16</span>
+				</p>
+			   </div>
+			   <div class="chart_2 border_none_1">
+			    <p>
+				<span>PUN</span>
+				<span>10</span>
+				<span>8</span>
+				<span>2</span>
+				<span>0</span>
+				<span>0</span>
+				<span>16</span>
+				</p>
+			   </div>
+			   
+			</div>
+		  </div>
+		  
+	 </div>
+   </div>
+ </div>
+</section>
+
+<section id="footer_new">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="footer_new clearfix">
+    <div class="col-sm-3">
+	 <div class="footer_new_1 ">
+	  <h5>TRENDING BLOG FORUM</h5>
+		<p><a href="#">Website Making Book</a></p>
+		<p><a href="#">Is Html Important?</a></p>
+		<p><a href="#">Learning Php</a></p>
+		<p><a href="#">Bootstrap and HTML Languges</a></p>
+		<p><a href="#">Software Importance</a></p>
+		<p><a href="#">Read More <i class="fa fa-caret-right"></i></a></p>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="footer_new_1">
+	  <h5>LATEST ARTICLE</h5>
+		<p><a href="#">Wordpress Important Notes</a></p>
+		<p><a href="#">Something about these languages</a></p>
+		<p><a href="#">Nulla quis sem at  elementum imperdiet</a></p>
+		<p><a href="#">Bootstrap and HTML Languges</a></p>
+		<p><a href="#">Learning Javascript</a></p>
+		<p><a href="#">Read More <i class="fa fa-caret-right"></i></a></p>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="footer_new_1">
+	  <h5>POPULAR COMMENTS</h5>
+		<p><a href="#">Fusce  sed augue semper porta</a></p>
+		<p><a href="#">Nulla quis sem at elementum imperdiet</a></p>
+		<p><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></p>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="footer_new_2">
+	  <h5>HELPLINE 24 HOURS</h5>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.Praesent libero. Sed cursus ante dapibus diam.</p>
+        <p>Nulla quis sem at elementum imperdiet</p>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="footer">
+  <div class="container-fluid">
+    <div class="row">
+	  <div class="col-sm-6 footer_1">
+	   <p class="p_4"> <a href="#">OUR SITE</a>
+		<a href="#"> FEEDBACK</a>
+		<a href="#">CONTACT</a>
+		<a href="#">ABOUT OUR SITE</a>
+		<a href="#">EDUCATION</a>
+		<a href="#">OUR POLICY</a>
+		<a class="border_none_1" href="#">TERMS</a></p>
+		<p class="p_5">© 2024 CRICblog. All Rights Reserved | Design by <a href="#">Prateek Raj</a></p>
+	  </div>
+	  <div class="col-sm-6 footer_2">
+	   <p class="text-right"> © 2024 CRICblog.</p>
+	  </div>
+	</div>
+  </div>
+</section>
+
+</body>
+       
+</html>
