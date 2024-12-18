@@ -1,0 +1,23 @@
+Cricket Blog is a dynamic and engaging platform designed for cricket enthusiasts to stay updated with the latest news, insights, and trends from the world of cricket. From match previews to player highlights, this website is your go-to source for all things cricket!
+
+Features
+📢 Latest Updates: Stay informed about current cricket matches, news, and events.
+🏆 Match Highlights: Key moments and summaries of ongoing and past games.
+✍️ Blogs & Insights: Thoughtful articles about teams, players, and strategies.
+🌐 Responsive Design: Optimized for seamless viewing on desktop and mobile devices.
+
+
+Tech Stack
+Frontend: HTML5, CSS3, JavaScript
+Deployment: Netlify
+
+
+How to Use
+Visit the live website.
+Browse through the latest cricket blogs and updates.
+Enjoy in-depth articles and match analysis.
+
+Future Enhancements
+Live match score integration.
+User login for commenting and personalized experiences.
+APIs for real-time cricket stats and data.
